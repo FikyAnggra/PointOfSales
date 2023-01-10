@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/BackgroundSecond">
+
+    <TextView
+        android:id="@+id/txtNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nama : Anggra" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtNamaLengkap"
+        app:layout_constraintStart_toStartOf="@+id/txtNamaLengkap"
+        app:layout_constraintTop_toBottomOf="@+id/txtNamaLengkap"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Email : anggra@gmail.com" />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:textColor="@color/white"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/txtEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtEmail"
+        app:layout_constraintTop_toBottomOf="@id/txtEmail"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Alamat : Bogor" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/txtAlamat"
+        app:layout_constraintStart_toStartOf="@+id/txtAlamat"
+        app:layout_constraintTop_toBottomOf="@id/txtAlamat"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Phone : 0822996576767" />
+
+    <TextView
+        android:id="@+id/txtDescriptions"
+        android:textColor="@color/white"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/txtPhone"
+        app:layout_constraintStart_toStartOf="@+id/txtPhone"
+        app:layout_constraintTop_toBottomOf="@id/txtPhone"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Descriptions :\nPengalaman 1 Tahun Dibidang Foto dan Video" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/Primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescriptions"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

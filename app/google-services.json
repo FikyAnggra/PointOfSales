@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263428060442",
+    "project_id": "wl-picture",
+    "storage_bucket": "wl-picture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263428060442:android:e922945e1f8ffb1897e8a3",
+        "android_client_info": {
+          "package_name": "com.example.wlpicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263428060442-sv1fgdftefjbcoteek1e4c66repnob6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXu1uMeU5OcVYJkt2VwW0UrVa89Zbrg1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263428060442-sv1fgdftefjbcoteek1e4c66repnob6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

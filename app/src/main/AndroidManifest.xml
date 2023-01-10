@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wlpicture">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WLPicture"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activity.admin.TimKamiAdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.admin.HomeAdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.admin.FormTimKamiActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.users.ReservasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.users.LayananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.users.TimKamiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.users.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.users.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.users.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wlpicture.activity.onboarding.OnBoardingThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wlpicture.activity.onboarding.OnBoardingSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wlpicture.activity.onboarding.OnBoardingFirstActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.wlpicture.activity.onboarding.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wlpicture.activity.users.HomeUsersActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
